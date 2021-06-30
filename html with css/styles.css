@@ -15,7 +15,6 @@ body {
     height: 50px;
     left: 50px;
     top: 20px;
-
 }
 
 .nav{
@@ -47,16 +46,14 @@ body {
 .content div {
     position: absolute;
     width: 659px;
-    height: 113px;
+    height: 113 px;
     left: 110px;
     top: 10%;
-
     font-family: Roboto;
     font-style: normal;
     font-weight: normal;
     font-size: 45px;
     line-height: 112px;
-    
     color: #03045E;
 }
 
@@ -65,18 +62,23 @@ body {
     width: 500px;
     height: 200px;
     left: 110px;
-    top: 520px;
+    top: 480px;
     background: #08438D;
+    color: #CAF0F8;
     border-radius: 30px;
 }
 
 .fm {
     display: flex;
     justify-content: center;
+    position: relative;
+    top: 10px;
 }
 
 .media {
     display: flex;
     gap: 10%;
     justify-content: center;
+    position: relative;
+    top: 20px;
 }
